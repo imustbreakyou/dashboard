@@ -34,6 +34,11 @@ li {
     margin-right: 30px;
 }
 
+.projects-container {
+  
+}
+
+
 
 
 
@@ -172,7 +177,7 @@ li {
 .main {
     padding: 10px;
     display: grid;
-    grid-template-columns: 4fr 1fr;
+    grid-template: 1fr 1fr / 4fr 1fr;
     margin-top: 10px;
     margin-right: 10px;
  
@@ -214,5 +219,6 @@ li {
     
     border-bottom: 1px solid lightgray;
     padding: 10px;
+    font-size: 12px;
   
 }
