@@ -8,9 +8,20 @@ body {
     
 }
 
+button {
+    background: #467E5B;
+    border: none;
+    border-radius: 25px;
+ 
+    color: white;
+    padding: 0px 10px 0px 10px;
+}
+
 li {
   list-style-type: none;
   color: white;
+  margin: 20px 0;
+  font-size: 24px;
 }
 
 .container {
@@ -47,10 +58,10 @@ li {
     display: grid;
     grid-template-rows: 1fr 2fr 1fr;
     padding: 10px;
-    border-left: 4px solid #467E5B;
+    border-left: 5px solid #0085D6;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-
+    
 
 }
 
@@ -75,10 +86,17 @@ li {
 
 }
 
-.header .top, .header .bottom {
+.header .top {
     display: grid;
-    grid-template-columns: 4fr 1fr;
+    grid-template-columns: 3fr 1fr;
+    
 }
+
+.header .bottom {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
 
 
 /*
@@ -95,8 +113,11 @@ li {
 }
 
 .search-bar {
-    border-radius: 5px;
+    border-radius: 15px;
     width: 75%;
+    background: #E2E8F0;
+    border: none;
+    height: 80%;
     
 
 }
@@ -104,7 +125,7 @@ li {
 .access-profile, .account-buttons {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 5px;
+    gap: 15px;
     padding: 5px;
 }
 
@@ -129,30 +150,60 @@ li {
     gap: 10px;
 }
 
+.logo-text {
+    margin-right: 40px;
+    font-size: 24px;
+}
 
 .logo-container {
-   /* border: 1px solid black;*/
     display: grid;
-    grid-template-columns: 1fr 1fr
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
 }
 
 .logo-container > div {
-    /*border: 1px solid black;*/
-    place-self: center;
-    
+    font-weight: 700;
+    color: white;
+}
 
+.logo {
+    display: grid;
+    place-items: center;
+    
 }
 
 
+
+
+ .profile-png {
+    object-fit: cover;
+    width: 30%;
+    padding: 0px;
+    margin: 0px;
+   
+}
+
+.logo > img {
+    object-fit: cover;
+    width: 50%;
+    height: auto;
+   
+}
 
 .menus {
     display: grid;
     grid-template-rows: repeat(auto-fit, minmax(100px, 300px));
-    gap: 15px;
+    gap: 25px;
 }
 
+.menus .li{
+    display: grid;
+    gap: 10px;
+}
+
+
 .menus > div {
-   border: 1px solid black;
+  
    margin: 10px;
 }
 
@@ -221,4 +272,17 @@ li {
     padding: 10px;
     font-size: 12px;
   
+}
+
+.card > p {
+    font-size: 12px;
+    padding-right: 20px;
+}
+
+.card .title {
+    font-weight: 700;
+}
+
+.profile-png {
+
 }
