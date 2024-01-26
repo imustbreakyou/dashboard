@@ -13,8 +13,8 @@ This front-end dashboard project was built as css and html practice for grid dis
 
 ## Attributions
 
-Icons provided by Font Awesome: https://fontawesome.com/
-Box shadows sourced from CSS Scan: https://getcssscan.com/css-box-shadow-examples
+<p>Icons provided by Font Awesome: https://fontawesome.com/</p>
+<p>Box shadows sourced from CSS Scan: https://getcssscan.com/css-box-shadow-examples</p>
 
 ## Setup and Installation
 
